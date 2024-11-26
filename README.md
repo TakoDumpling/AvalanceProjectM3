@@ -107,16 +107,20 @@ The deploying address will automatically become the contract owner.
 
 ### Interacting with the Contract
 Functions:
+
 Mint Tokens (mint):
 Input: Recipient address and the amount to mint.
 Restriction: Only callable by the contract owner.
+
 Transfer Tokens (transfer):
 Input: Recipient address and the amount to transfer.
 Any user can transfer tokens if they have sufficient balance.
+
 Burn Tokens (burn):
 Input: Address to burn tokens from and the amount to burn.
 Any user can burn tokens from their own or another account (with sufficient balance).
-Example Usage
+
+### Example Usage
 Mint Tokens:
 Call mint as the contract owner to allocate tokens to specific addresses.
 
