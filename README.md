@@ -11,8 +11,8 @@ The project provides a custom implementation of an ERC20 token contract, focusin
 ### **Features**
 
 #### **Token Details**
-- **Name:** MyToken
-- **Symbol:** MTK
+- **Name:** PICHI
+- **Symbol:** PCH
 - **Decimals:** 18 (default for ERC20 tokens)
 
 #### **Functionalities**
@@ -40,8 +40,8 @@ The project provides a custom implementation of an ERC20 token contract, focusin
 pragma solidity ^0.8.0;
 
 contract MyToken {
-    string public name = "MyToken";
-    string public symbol = "MTK";
+    string public name = "PICHI";
+    string public symbol = "PCH";
     uint8 public decimals = 18;
     uint256 public totalSupply;
 
